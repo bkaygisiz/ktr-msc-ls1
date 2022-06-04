@@ -1,5 +1,17 @@
 # ktr-msc-ls1
 
-  npm install
-  
-  npm run dev
+## Installation
+
+With npm.
+
+```bash
+npm install
+```
+
+## Usage
+
+```bash
+npm run dev
+```
+
+Then go to localhost:8001 on a browser
