@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <h1>Create profile</h1>
+    <div id="form">
+      <form action="/library" method="post" class="form-example">
+        <div>
+          <label for="name">Enter a name: </label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="companyName">Enter the company name: </label>
+          <input type="text" name="companyName" id="companyName" />
+        </div>
+        <div>
+          <label for="email">Enter the email address: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Enter a phone number: </label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="submit">
+          <input type="submit" value="Subscribe!" />
+        </div>
+      </form>
+      <form action="/logout" method="get">
+        <div class="submit"><input type="submit" value="Logout" /></div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<style>
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+</style>
